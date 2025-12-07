@@ -1,0 +1,131 @@
+*{
+ font-family: 'Roboto', sans-serif;
+ /* border: 1px solid red; */
+}
+
+body{
+    background-color: #000;
+}
+#nav{
+    background-color: #000;
+    color:white;
+}
+#nav a {color: white;
+justify-content: center;}
+#logo{
+    width: 140px;
+}
+
+#data {
+    text-align: center;
+    color: white;
+}
+
+#data span {
+    padding-top: 00px;
+
+}
+#data p{
+    padding-bottom:0px;
+    font-size: 16px;
+}
+
+#pincode{
+    font-size: xx-small;
+}
+#black{
+    width: 100%;
+}
+
+#bold{
+    font-weight: 600;
+    font-size: x-large;
+}
+
+#effect:hover{
+    color: red;
+}
+
+
+@media only screen and (min-width:320px)
+{
+#data{
+    justify-content: center;
+}
+}
+
+@media only screen and (min-width:768px)
+{
+    #hero{
+        position: relative;
+    }
+    #data{
+        position: absolute;
+        left: 20px;
+
+        top: 10%;
+    }
+
+    #adjust{
+        position: absolute;
+        left: -170px;
+        font-size:x-large;
+
+        top:30%;
+    }
+    .blur{
+        background-color: #2121218f;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    #hero{
+        position: relative;
+    }
+    #data{
+        position: absolute;
+        left: 30px;
+        top: 30%;
+        font-size: xx-large;
+    }
+
+    #data p{
+        padding-bottom:0px;
+        font-size: 20px;
+    }
+
+    #adjust{
+        position: absolute;
+        left: -330px;
+        font-size:50px;
+
+        top:30%;
+        
+        
+
+    }
+
+
+}
+@media only screen and (min-width:1400px){
+    #hero{
+        position: relative;
+    }
+    #data{
+        position: absolute;
+        left:20px;
+        top: 32%;
+        font-size: xx-large;
+    }
+
+}
+
+#data p
+{
+    font-size:x-small;
+}
+#parth{
+    margin-bottom: 0%;
+    height:30px;
+    padding: 0% 1%;
+}

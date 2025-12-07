@@ -1,0 +1,42 @@
+#text-small
+{
+    font-size: 10px ;
+}
+
+#bg3{
+    width: 100%;
+    background-image:url(../images/illustration/s);
+}
+
+/* #relative{
+    position: relative;
+}
+#absolute{
+    position: absolute;
+    left: 50px;
+} */
+
+
+
+
+
+
+@media only screen and (min-width:768px){
+    #since{
+        font-size: x-large
+    }
+    #boxes{
+        margin-top: 100px;
+    }
+    #data{justify-content: center;
+    }
+
+
+    
+}
+
+
+@media only screen and (min-width:992px){
+
+    
+}

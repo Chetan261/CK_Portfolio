@@ -1,0 +1,127 @@
+*{
+
+    font-family: sans-serif;
+}
+
+
+
+#nav{
+    background-color: rgb(237, 115, 9);
+}
+
+
+#black:hover{
+    color:white;
+}
+
+
+#opacity{
+    background-color: black;
+}
+
+.carousaltext{
+    font-size: x-large;
+}
+
+
+#orange{
+    color: #ff5e15;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+
+
+.data{
+    padding-top: 100px;
+}
+
+#experience{
+    background-color: #09162a;
+}
+
+.img1{
+    height: 100px;
+}
+
+#owl-demo .item{
+    margin: 3px;
+  }
+  #owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+
+  .card-img{
+    width: 300px;
+  }
+  .card-text2{
+    font-weight: 700;
+    color: aliceblue;
+    font-size: larger;
+  }
+
+  #formbg{
+    background-color: #ff5e15;
+  }
+
+
+  #footer
+  {
+    background-color: black;
+  }
+
+  #footer a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .card-text3{
+    font-size: xx-large;
+    color:black;
+    padding: -300px;
+    background-color: white;
+    
+  }
+ 
+
+@media only screen and (min-width:768px){
+    .carousel-item{
+        height: 700px;
+    }
+    .carousaltext{
+        margin-top: -300px;
+        font-size: 56px;
+        font-weight: 600;
+    }
+    .carousel-item{
+        height: 100%;
+    }
+    
+    .img1{
+      height: 100px;
+  }
+  #adjust{
+    margin-top: 40px;
+
+  }
+
+}
+
+@media only screen and (min-width:992px){
+  .carousel-item{
+      height: 700px;
+  }
+  .carousaltext{
+      margin-top: -500px;
+      font-size: 56px;
+      font-weight: 600;
+  }
+  .carousel-item{
+      height: 100%;
+  }
+  
+
+}

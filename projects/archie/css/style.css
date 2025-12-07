@@ -1,0 +1,90 @@
+/* *{
+    border: 1px solid red;
+} */
+#quote{
+
+    font-size: 10px;
+}
+/* #carousal2{
+    height: 180px;
+} */
+
+#bg3{
+    background-image: url(../images/illustration/section_bg01.png);
+    height: 40vh;
+}
+.card-group{
+    margin-top: -5%;
+}
+/* #words{
+    margin-top: 200px;
+} */
+
+#dark{
+    background-image:url(../images/illustration/section_bg02.png);
+    height:100vh;
+
+}
+
+#footerbg{
+    background-image: url(../images/illustration/footer_bg.png);
+    height: 100%;
+}
+/* #marginfooter{
+    margin-top: 300px;
+    padding-top: 200px;
+} */
+
+#effect:hover{
+    scale: 1.1;
+
+
+}
+
+
+
+@media only screen and (min-width:768px){
+
+
+    #heading{
+        font-size: xx-large;
+    }
+    #quote{
+        font-size: larger;
+    }
+    .carousel-caption{
+        
+        
+    }
+    #about1
+    {
+        margin-top: 100px;
+    }
+    #words{
+        margin-top: 200px;
+    }
+
+    
+}
+
+@media only screen and (min-width:992px){
+
+
+    #heading{
+        font-size: xx-large;
+    }
+    #quote{
+        font-size: larger;
+    }
+    .carousel-caption{
+        
+        
+    }
+    #about1
+    {
+        margin-top: 100px;
+    }
+    #words{
+        margin-top: 200px;
+    }
+}
